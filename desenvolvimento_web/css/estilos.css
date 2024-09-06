@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Jacquard+12+Charted&family=Kalnia+Glaze:wght@100..700&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.pixelify-sans-uniquifier {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.kalnia-glaze-uniquifier {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: dimgray;
+}
+
+#container {
+  margin: auto;
+  width: 80%;
+}
+
+#header,
+#nav, 
+#content {
+  float: left;
+}
+
+#header {
+  width: 100%;
+  background-color: #fff;
+  height: 200px;
+  margin-bottom: 1%;
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#header img {
+  width: 100px;
+}
+
+#header #direita,
+#header #esquerda {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#header #esquerda {
+  margin-top: 7.5%;
+}
+
+#nav {
+  width: 20%;
+  margin-right: 1%;
+  float: left;
+  font-family: "Kalnia Glaze", serif;
+}
+
+#content {
+  width: 75%;
+  float: left;
+  background-color: #fff;
+  padding: 2%;
+  font-family: "Bungee Tint", sans-serif;
+}
+
+#content h1,
+#content h2,
+#content h3 {
+  margin-bottom: 2%;
+  font-family: "Bungee Tint", sans-serif;
+}
+
+#nav ul {
+  list-style-type: none;
+  background-color: #ddd;
+}
+
+#nav li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#nav li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.active {
+  background-color: #000;
+}
+
+#nav .active a {
+  color: #fff;
+}
